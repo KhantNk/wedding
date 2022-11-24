@@ -1,0 +1,76 @@
+.contact .address {
+  width: 40%;
+}
+
+.contact .map {
+  width: 100%;
+}
+
+.contact .d-flex {
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.contact-detail i {
+  font-size: 50px;
+  color: #F3164D;
+  line-height: 1.2;
+}
+
+.review-form .d-flex {
+  padding-top: 0;
+  gap: 30px;
+}
+
+.review-form ul li {
+  width: 100%;
+}
+
+.review-form ul li input {
+  width: 100%;
+  padding: 8px 0 8px 12px;
+  border-radius: 5px;
+  border: 1px solid#AAAAAA;
+  color: #AAAAAA;
+}
+
+.review-form ul li textarea {
+  font-family: 'Poppins', sans-serif;
+  color: #AAAAAA;
+  padding: 8px 0 0 12px;
+  border-radius: 5px;
+  border: 1px solid#AAAAAA;
+}
+
+.contact .btn {
+  margin-top: 30px;
+}
+
+.contact .decoration {
+  color: #F3164D;
+}
+
+.contact .decoration::before {
+  background-color: #F3164D;
+  width: 100%;
+}
+
+.contact .decoration::after {
+  background-color: #F3164D;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+  
+}
+
+@media screen and (max-width:767.9px) {
+  .contact .d-flex {
+    flex-direction: column-reverse;
+  }
+
+  .contact .address {
+    width: 100%;
+  }
+
+}
