@@ -12,7 +12,7 @@ buttons.forEach((btn) => {
         sections.forEach((section) => {
             section.classList.remove("active");
         });
-        const req = document.getElementsByClassName(`content${id}`);
+        const req = document.getElementsByClassName(`${id}dress`);
         req[0].classList.add("active");
     })
 })

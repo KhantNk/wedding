@@ -7,10 +7,11 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   box-sizing: border-box;
+  color: #444444;
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 h2 {
@@ -66,6 +67,7 @@ h4 {
   background-color: #F3164D;
   color: #fff;
   box-shadow: unset;
+  transition: 0.5s;
 }
 
 .d-flex {

@@ -8,6 +8,7 @@ footer {
 
 footer h2 {
   padding-bottom: 40px;
+  display: inline-block;
 }
 
 .row {
@@ -30,7 +31,7 @@ footer h2 {
 }
 
 .contact-detail ul li a {
-  color: #222222;
+  color: #444444;
   line-height: 1.8;
 }
 
@@ -67,6 +68,7 @@ footer h2 {
 
 .footer-info ul li a:hover {
   color: #F3164D;
+  transition: 0.5s;
 }
 
 footer p {

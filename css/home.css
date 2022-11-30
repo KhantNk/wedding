@@ -55,18 +55,9 @@
   align-items: center;
 }
 
-.home .services {
+.home .services:hover {
   box-shadow: 0 3px 6px #707070;
-}
-
-.home .services:hover i {
-  background-color: #F75F85;
-  color: #FFFFFF;
-}
-
-.home .services:hover p {
-  background-color: #FFFFFF;
-  color: #F75F85;
+  transition: 0.5s;
 }
 
 .services i {
@@ -81,8 +72,9 @@
   background-color: #F75F85;
   color: #FFFFFF;
   font-size: 18px;
-  padding: 45px 0;
+  padding: 45px 0 45px 23px;
   width: 100%;
+  text-align: left;
 }
 
 .events .inner {

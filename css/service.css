@@ -76,6 +76,7 @@
 }
 
 .package-bg .offered-package {
+  flex-wrap: wrap;
   display: flex;
   gap: 30px;
   padding-top: 40px;
@@ -86,7 +87,7 @@
   box-shadow: 0 0 6px #707070;
   padding: 40px 50px;
   border-radius: 20px;
-  width: 100%;
+  flex: 1 1 30%;
 }
 
 .package-bg .offered-package .package h6 {

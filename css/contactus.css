@@ -1,6 +1,9 @@
 .contact .address {
   width: 40%;
 }
+.contact h5{
+  color: #333333;
+}
 
 .contact .map {
   width: 100%;
@@ -32,6 +35,7 @@
   border-radius: 5px;
   border: 1px solid#AAAAAA;
   color: #AAAAAA;
+  outline-color: #AAAAAA;
 }
 
 .review-form ul li textarea {

@@ -10,6 +10,7 @@
 .header li a:hover,
 .header .menu-btn:hover {
   color: #F3164D;
+  transition: 0.5s;
 }
 
 .logo {
