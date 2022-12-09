@@ -30,20 +30,29 @@
 }
 
 .review-form ul li input {
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   padding: 8px 0 8px 12px;
   border-radius: 5px;
   border: 1px solid#AAAAAA;
-  color: #AAAAAA;
+  color: #111111;
   outline-color: #AAAAAA;
 }
 
 .review-form ul li textarea {
   font-family: 'Poppins', sans-serif;
-  color: #AAAAAA;
+  color: #111111;
   padding: 8px 0 0 12px;
   border-radius: 5px;
   border: 1px solid#AAAAAA;
+}
+
+::-webkit-input-placeholder {
+  color: #AAAAAA;
+}
+
+::placeholder {
+  color: #AAAAAA;
 }
 
 .contact .btn {
