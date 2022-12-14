@@ -1,0 +1,321 @@
+.mv-blk {
+  background: url(../img/main_bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.home h3 {
+  line-height: 0.5;
+}
+
+.home h3::after {
+  content: url(../img/red-line.png);
+  display: block;
+}
+
+.mv-txt p {
+  font-size: 55px;
+  color: #FFFFFF;
+  line-height: 1.5;
+}
+
+.mv-txt .btn {
+  margin-top: 80px;
+}
+
+.story {
+  text-align: center;
+}
+
+.story p {
+  padding-top: 50px;
+}
+
+.ourservice {
+  background-color: #FDDAE2;
+  text-align: center;
+}
+
+.ourservice p {
+  padding-top: 50px;
+}
+
+.service-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 38px;
+}
+
+.services {
+  display: flex;
+  flex: 1 1 30%;
+  align-items: center;
+}
+
+.home .services:hover {
+  box-shadow: 0 3px 6px #707070;
+  transition: 0.5s;
+}
+
+.services i {
+  background-color: #FFFFFF;
+  color: #F75F85;
+  font-size: 50px;
+  padding: 30px 17px;
+  height: 100%;
+}
+
+.services p {
+  background-color: #F75F85;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 45px 0 45px 23px;
+  width: 100%;
+  text-align: left;
+}
+
+.events .inner {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 64px;
+  margin-top: 103px;
+  margin-bottom: 103px;
+  box-shadow: 0 0 6px #707070;
+}
+
+.service-detail {
+  display: flex;
+}
+
+.service-detail:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.service-detail .service-txt {
+  flex: 1 1 50%;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.service-txt p {
+  padding-top: 30px;
+}
+
+.service-txt span {
+  font-family: 'Great Vibes', cursive;
+  font-size: 20px;
+}
+
+.service-detail .service-img {
+  flex: 1 1 50%;
+}
+
+.service-detail .service-img img {
+  width: 100%;
+  height: 371px;
+  object-fit: cover;
+}
+
+.wedding-dress {
+  background-color: #F75F85;
+}
+
+.wedding-dress h3 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.dress {
+  display: flex;
+  gap: 30px;
+  padding-top: 50px;
+}
+
+.home .dress-img {
+  flex: 1 1 30%;
+  text-align: center;
+  position: relative;
+}
+
+.dress-img img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.wedding-dress .dress-img::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid#FFFFFF;
+  width: 90%;
+  height: 90%;
+}
+
+.wedding-dress .dress-img span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #F75F85;
+  color: #FFFFFF;
+  padding: 18px 15px;
+  width: 70%;
+  opacity: 0;
+}
+
+.wedding-dress .dress-img:hover span {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.latest-event .d-flex {
+  gap: 80px;
+}
+
+.latest-event .event-txt {
+  text-align: left;
+  width: 350px;
+}
+
+.latest-event .event-txt p {
+  padding-top: 30px;
+}
+
+.latest-event .date i {
+  font-size: 25px;
+}
+
+.slick-slider {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider-2 .slick-slide {
+  max-width: 311px;
+  width: 100%;
+  height: 400px;
+  margin: 0 13px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-2 .slick-slide img {
+  display: block;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.dress-img p {
+  font-size: 18px;
+  color: #F75F85;
+  padding-top: 15px;
+}
+
+.home .slick-next {
+  right: 0px;
+  background: transparent;
+  padding: 0 4px;
+}
+
+.home .slick-next::before {
+  color: #222222;
+}
+
+.home .slick-prev {
+  left: -36px;
+  background: transparent;
+  padding: 0 4px;
+}
+
+.home .slick-prev::before {
+  color: #222222;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .services {
+    flex: 1 1 33.33%;
+  }
+
+  .dress-img img {
+    height: 30.813vw;
+  }
+
+  .slick-slider {
+    width: 30%;
+  }
+
+  .slider-2 .slick-slide {
+    width: 80%;
+  }
+
+  .home .slick-prev {
+    left: -36px;
+  }
+
+  .home .slick-next {
+    right: -27px;
+  }
+
+}
+
+@media screen and (max-width:767.9px) {
+  .services {
+    flex: 1 1 50%;
+  }
+
+  .mv-txt p {
+    font-size: 40px;
+  }
+
+  .service-detail {
+    flex-direction: column;
+    gap: 6.906vw;
+  }
+
+  .service-detail:nth-child(2) {
+    flex-direction: column;
+  }
+
+  .service-txt p {
+    font-size: 3.5vw;
+  }
+
+  .service-txt span {
+    font-size: 5.604vw;
+    line-height: 1.5;
+  }
+
+  .events .inner {
+    gap: 50px;
+    padding: 30px;
+  }
+
+  .dress {
+    flex-direction: column;
+  }
+
+  .latest-event .d-flex {
+    flex-direction: column;
+  }
+
+  .dress-img {
+    flex: 1 1 50%;
+  }
+
+  .slick-slider {
+    width: 40%;
+  }
+
+  .home .slick-next {
+    right: -27px;
+  }
+}
