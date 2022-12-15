@@ -57,10 +57,14 @@
   }
 
   .tabs {
-    gap: 10px;
+    gap: 25px;
   }
 
   .tabs .button {
-    font-size: 4vw;
+    font-size: 3vw;
+  }
+
+  .service-info{
+    padding-top: 25px;
   }
 }

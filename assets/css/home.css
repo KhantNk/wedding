@@ -250,7 +250,7 @@
   }
 
   .slick-slider {
-    width: 30%;
+    width: 43%;
   }
 
   .slider-2 .slick-slide {
@@ -273,7 +273,7 @@
   }
 
   .mv-txt p {
-    font-size: 40px;
+    font-size: 3vw;
   }
 
   .service-detail {
@@ -286,7 +286,7 @@
   }
 
   .service-txt p {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
 
   .service-txt span {
@@ -299,20 +299,20 @@
     padding: 30px;
   }
 
-  .dress {
+  .latest-event .d-flex {
     flex-direction: column;
   }
 
-  .latest-event .d-flex {
-    flex-direction: column;
+  .slick-slider {
+    width: 75%;
   }
 
   .dress-img {
     flex: 1 1 50%;
   }
 
-  .slick-slider {
-    width: 40%;
+  .dress-img img {
+    height: 250px;
   }
 
   .home .slick-next {

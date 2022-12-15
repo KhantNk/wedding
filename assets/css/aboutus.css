@@ -130,6 +130,7 @@
 
   .associate .d-flex {
     padding-top: 0;
+    flex-wrap: wrap;
   }
 
 }

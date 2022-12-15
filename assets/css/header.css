@@ -78,11 +78,11 @@
   }
 
 .header .menu-icon {
-  cursor: pointer;
   display: inline-block;
+  position: relative;
   float: right;
   padding: 28px 20px;
-  position: relative;
+  cursor: pointer;
   user-select: none;
 }
 
